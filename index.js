@@ -17,20 +17,20 @@ app.get('/api', function (req, res) {
 });
 
 app.use(function(req, res, next){
-res.status(404);
-log.debug('Not found URL: %s',req.url);
-res.send({ error: 'Not found' });
-return;
+	res.status(404);
+	log.debug('Not found URL: %s',req.url);
+	res.send({ error: 'Not found' });
+	return;
 });
  
 app.use(function(err, req, res, next){ 
-res.status(err.status || 500);
-log.error('Internal error(%d): %s',res.statusCode,err.message); res.send({ error: err.message });
+	res.status(err.status || 500);
+	log.error('Internal error(%d): %s',res.statusCode,err.message); res.send({ error: err.message });
  	return;
 });
 
 app.get('/ErrorExample', function(req, res, next){
-next(new Error('Random error!'));
+	next(new Error('Random error!'));
 });
 
 app.get('/api/articles', function(req, res) {
@@ -60,7 +60,7 @@ app.post('/api/articles', function(req, res) {
 			 return res.send({
 			 status: 'OK',
 			article:article
-		});
+			});
 		 } else {
 			console.log(err);
 			 if(err.name == 'ValidationError') {
