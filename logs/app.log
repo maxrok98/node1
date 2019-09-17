@@ -1,0 +1,34 @@
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"level":"error","message":"Internal error(%d): %s"}
+{"message":"article created","level":"info"}
+{"message":"Express server listening on port 1337","level":"info"}
+{"message":"Connected to DB!","level":"info"}
+{"message":"article created","level":"info"}
+{"message":"article removed","level":"info"}
