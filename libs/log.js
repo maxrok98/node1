@@ -33,14 +33,14 @@ var options = {
 function getLogger(module) {
 var path = module.filename.split('/').slice(-2).join('/'); //отобразим метку с именем файла, который выводит сообщение
 
- return new winston.createLogger({
+return new winston.createLogger({
   transports: [
-    new (winston.transports.Console)(options.console),
-    new (winston.transports.File)(options.errorFile),
-    new (winston.transports.File)(options.file)
+  new (winston.transports.Console)(options.console),
+  new (winston.transports.File)(options.errorFile),
+  new (winston.transports.File)(options.file)
   ],
   exitOnError: false, // do not exit on handled exceptions
 });
 }
 
- module.exports = getLogger;
+module.exports = getLogger;
